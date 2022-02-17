@@ -1,0 +1,16 @@
+server:
+  port: 8090
+spring:
+  security:
+    user:
+      name: nttdata
+      password: nttd4t4
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/yker11/BootCampMS.git
+          searchPaths: /
+          default-label: "main"
+          username: nttdata
+          password: nttdata
