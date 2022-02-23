@@ -6,13 +6,3 @@ spring:
       uri: http://localhost:8090
       username: nttdata
       password: nttd4t4
-    gateway:
-      discovery:
-        locator:
-          enable: true
-      routes:
-
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8091/eureka
