@@ -12,12 +12,10 @@ spring:
           uri: lb://example-service
           predicates:
             - Path=/examples/**
-      routes:
         - id: ms-bootcoin-account
           uri: lb://ms-bootcoin-account
           predicates:
             - Path=/**
-      routes:
         - id: ms-bootcoin-transaction
           uri: lb://ms-bootcoin-transaction
           predicates:
